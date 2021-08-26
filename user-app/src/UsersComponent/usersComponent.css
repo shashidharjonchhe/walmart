@@ -1,0 +1,18 @@
+.users-container h3,
+.users-container h5{
+    margin:0;
+    margin-bottom: 10px;
+}
+
+.users-container table{
+    width:400px;
+}
+.users-container table tr th,
+.users-container table tr td{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+.users-container table tr th{
+    font-weight: bold;
+    text-align: left;
+}

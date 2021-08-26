@@ -1,0 +1,30 @@
+.table-container h3{
+    margin-top:50px;
+    margin-bottom: 5px;;
+
+}
+.table-container select{
+    padding: 5px;
+    background-color:#347ac8;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    margin:10px 0;
+
+}
+
+.table-container select option{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.table-container table{
+    width:400px;
+}
+.table-container table tr th,
+.table-container table td {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    text-align: left;
+}
