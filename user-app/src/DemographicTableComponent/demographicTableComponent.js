@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./demographicTableComponent.css";
 const DemographicTableComponent = (props) => {
-  const { getUsersAge, lists, listOfItems } = props;
+  const { getUsersAge, usersData, listOfItems } = props;
 
   const [type, setType] = useState("");
   const [tableContent, setTableContent] = useState(null);
   const onChangeOfValue = (e) => {
     const tableData = Object.values(
-      lists
+      usersData
         .filter((val) =>
           Object.keys(getUsersAge)
             .filter((val) => getUsersAge[val].includes(e.target.value))
